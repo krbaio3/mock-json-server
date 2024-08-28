@@ -1,0 +1,26 @@
+{
+  "microFrontends": [
+    {
+      "name": "Header",
+      "url": "http://localhost:3001/remoteEntry.js",
+      "scope": "header",
+      "module": "./HeaderComponent"
+    },
+    {
+      "name": "Footer",
+      "url": "http://localhost:3002/remoteEntry.js",
+      "scope": "footer",
+      "module": "./FooterComponent"
+    }
+  ],
+  "componentsConfig": {
+    "header": {
+      "backgroundColor": "#333",
+      "textColor": "#fff"
+    },
+    "footer": {
+      "backgroundColor": "#222",
+      "textColor": "#ccc"
+    }
+  }
+}
